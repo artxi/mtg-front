@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="card" *ngFor="let set of sets$ | async">
+        <img [src]="set.image" class="set-icon" alt="...">
+        <div class="card-body">
+            <p class="card-name">{{ set.name }}</p>
+        </div>
+    </div>
+</div>

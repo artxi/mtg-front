@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CardModule } from './card/card.module';
+import { SetModule } from './set/set.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { CardModule } from './card/card.module';
   ],
   imports: [
     BrowserModule,
-    CardModule
+    CardModule,
+    SetModule
   ],
   providers: [],
   bootstrap: [AppComponent]
