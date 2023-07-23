@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="card" *ngFor="let card of cards$ | async">
+        <img [src]="card.image" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3 class="card-name">{{ card.name }}</h3>
+        </div>
+    </div>
+</div>
